@@ -1,0 +1,205 @@
+/* need to adjust as needed - use a template and learn to do it myself!
+Color Palette:
+lightest purple1: #f1eff1;
+light purple2: #cec7cf;
+pink: #f61067;
+mid purple4: #927f92;
+dark purple5: #24232c;
+
+Font Family in CSS 
+font-family: 'Raleway', sans-serif;
+font-family: 'Lora', serif;
+*/
+
+/*-------------------*/
+/*BASIC SETUP*/
+/*-------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #cec7cf;
+    color: #24232c;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+h1,
+h2 {
+    font-family: 'Lora', serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*-------------------*/
+/*REUSABLE COMPONENTS*/
+/*-------------------*/
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+/*--------PARAGRAPHS--*/
+
+
+
+/*--------ICONS--*/
+
+
+    
+    /* secrets to align text and icons*/
+   /* line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}*/
+/*-------HEADINGS-----*/
+
+
+
+/*-------LINKS------------*/
+
+
+
+/*-------BUTTONS------------*/
+
+
+
+/*-------------------*/
+/*HEADER*/
+/*-------------------*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+/*-------------------*/
+/*FEATURES*/
+/*-------------*/
+
+
+
+    
+/*-------------------*/
+/*MEALS*/
+/*-------------------*/ 
+
+/*.section-meals {
+    padding: 0;
+    overflow: auto;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+   
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+ 
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s;
+    
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}*/
+
+/*-------------------*/
+/*HOW IT WORKS*/
+/*-------------------*/
+
+
+/*-------------------*/
+/*CITIES*/
+/*-------------------*/
+
+
+/*-------------------*/
+/*TESTIMONIALS*/
+/*-------------------*/
+
+
+/*-------------------*/
+/*SIGN UP*/
+/*-------------------*/
+
+
+/*-------------------*/
+/*FORM*/
+/*-------------------*/
+
+/*.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+imput[type=text],
+imput[type=email],
+select, 
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px; 
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {
+    outline: none;
+}*/
+
+/*-------------------*/
+/*FOOTER*/
+/*-------------------*/
+
+
+
