@@ -19,12 +19,12 @@ font-family: 'Lora', serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
 html,
 body {
     background-color: #cec7cf;
-    color: #24232c;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -32,8 +32,16 @@ body {
 }
 
 h1,
-h2 {
-    font-family: 'Lora', serif;
+h2,
+h3 {
+    font-family: 'Raleway', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 200;
 }
 
 p {
@@ -50,121 +58,50 @@ p {
     margin: 0 auto;
 }
 
-section {
-    padding: 80px 0;
-}
-
-.box {
-    padding: 1%;
-}
-
-/*--------PARAGRAPHS--*/
-
-
-
-/*--------ICONS--*/
-
-
-    
-    /* secrets to align text and icons*/
-   /* line-height: 120%;
-    vertical-align: middle;
-    margin-top: -5px;
-}*/
-/*-------HEADINGS-----*/
-
-
-
-/*-------LINKS------------*/
-
-
-
-/*-------BUTTONS------------*/
-
-
-
 /*-------------------*/
 /*HEADER*/
 /*-------------------*/
-
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    /*background-image: url(img/banner2.jpg);*/
     background-size: cover;
-    background-position: center;
     height: 100vh;
-    background-attachment: fixed;
 }
 
-
-/*-------------------*/
-/*FEATURES*/
-/*-------------*/
-
-
-
-    
-/*-------------------*/
-/*MEALS*/
-/*-------------------*/ 
-
-/*.section-meals {
-    padding: 0;
-    overflow: auto;
+header h1 {
+    color: #f61067;
+    padding: 10px;
+    font-size: 300%;
+    font-stretch: expanded;
 }
 
-.meals-showcase {
-    list-style: none;
-    width: 100%;
-   
+header h3 {
+    color: #f1eff1;
+    margin: 0px 10px;
 }
 
-.meals-showcase li {
-    display: block;
-    float: left;
-    width: 25%;
+.main-nav {
+    text-decoration: none;
+    word-spacing: 25px;
+    letter-spacing: 2px;
+    margin: 20px;
+    float: right;
 }
 
-.meal-photo {
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    background-color: #000;
- 
+header li {
+    display: inline;
 }
 
-.meal-photo img {
-    opacity: 0.7;
-    width: 100%;
-    height: auto;
-    transform: scale(1.15);
-    transition: transform 0.5s;
+header li a {
+    text-decoration: none;
+    border-bottom: 3px solid #f61067;
+    padding-bottom: 3px;
+}
+
+.page-title {
+    clear: both;
+    padding: 100px 0 0 30px;
     
 }
-
-.meal-photo img:hover {
-    opacity: 1;
-    transform: scale(1.03);
-}*/
-
-/*-------------------*/
-/*HOW IT WORKS*/
-/*-------------------*/
-
-
-/*-------------------*/
-/*CITIES*/
-/*-------------------*/
-
-
-/*-------------------*/
-/*TESTIMONIALS*/
-/*-------------------*/
-
-
-/*-------------------*/
-/*SIGN UP*/
-/*-------------------*/
-
 
 /*-------------------*/
 /*FORM*/
