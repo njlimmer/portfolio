@@ -2,7 +2,7 @@
 Color Palette:
 lightest purple1: #f1eff1;
 light purple2: #cec7cf;
-pink: #f61067;
+pink: #f42e7a;
 mid purple4: #927f92;
 dark purple5: #24232c;
 
@@ -29,11 +29,13 @@ body {
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+    clear: both;
 }
 
 h1,
 h2,
-h3 {
+h3,
+li {
     font-family: 'Raleway', sans-serif;
     word-spacing: 5px;
     letter-spacing: 2px;
@@ -42,6 +44,25 @@ h3 {
 h1 {
     text-transform: uppercase;
     font-weight: 200;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #f42e7a;
+    padding: 20px 0;
+    font-size: 200%;
+}
+
+h2:after {
+    display: block;
+    height: 3px;
+    background-color: #24232c;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
 }
 
 p {
@@ -58,51 +79,95 @@ p {
     margin: 0 auto;
 }
 
+.col p {
+    line-height: 145%;
+}
+
 /*-------------------*/
 /*HEADER*/
 /*-------------------*/
 header {
-    /*background-image: url(img/banner2.jpg);*/
+    background-image: linear-gradient(rgba(36, 35, 44, 0.5), rgba(36, 35, 44, 0.5)), url(img/pexels-photo-169573.jpg);
     background-size: cover;
+    background-position: center;
     height: 100vh;
 }
 
 header h1 {
-    color: #f61067;
+    color: #f42e7a;
     padding: 10px;
-    font-size: 300%;
+    margin: 0;
+    font-size: 400%;
+    font-weight: bold;
     font-stretch: expanded;
+    letter-spacing: 4px;
 }
 
 header h3 {
     color: #f1eff1;
-    margin: 0px 10px;
-}
-
-.main-nav {
-    text-decoration: none;
-    word-spacing: 25px;
-    letter-spacing: 2px;
-    margin: 20px;
-    float: right;
-}
-
-header li {
-    display: inline;
-}
-
-header li a {
-    text-decoration: none;
-    border-bottom: 3px solid #f61067;
-    padding-bottom: 3px;
+    margin: 0px 12px;
 }
 
 .page-title {
-    clear: both;
-    padding: 100px 0 0 30px;
-    
+    position: absolute;
+    width: 1140px;
+    top: 20%;
+    left: 60%;
 }
 
+.main-nav {
+    float: right;
+    list-style: none;
+    margin: 40px 40px 0 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #f1eff1;
+    text-decoration: none;
+    font-size: 90%;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 3px solid #f42e7a;
+}
+
+/*-------------------*/
+/*ABOUT*/
+/*-------------------*/
+
+.about-section {
+    background-color: #927f92;
+    height: 700px
+}
+
+.about-section .row {
+    background-color: #cec7cf;
+    padding: 20px 0;
+}
+
+.about-section .col {
+    width: 50%;
+    margin: 30px auto;
+}
+
+.limmer-photo img {
+    height: auto;
+    width: 400px;
+    float: left;
+    margin: 30px 100px 20px 50px;
+    border: 3px solid #927f92;
+}
 /*-------------------*/
 /*FORM*/
 /*-------------------*/
