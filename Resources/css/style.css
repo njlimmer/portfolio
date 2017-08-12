@@ -28,7 +28,7 @@ body {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
     clear: both;
 }
 
@@ -146,11 +146,6 @@ header h3 {
 /*ABOUT*/
 /*-------------------*/
 
-.about-section {
-    background-color: #927f92;
-    height: 700px
-}
-
 .about-section .row {
     background-color: #cec7cf;
     padding: 20px 0;
@@ -168,40 +163,63 @@ header h3 {
     margin: 30px 100px 20px 50px;
     border: 3px solid #927f92;
 }
+
 /*-------------------*/
-/*FORM*/
+/*PROJECTS*/
 /*-------------------*/
 
-/*.contact-form {
-    width: 60%;
-    margin: 0 auto;
+.projects-section {
+    background-color: #927f92;
 }
 
-imput[type=text],
-imput[type=email],
-select, 
-textarea {
-    width: 100%;
-    padding: 7px;
-    border-radius: 3px;
-    border: 1px solid #ccc;
+/*-------------------*/
+/*CONTACTF*/
+/*-------------------*/
+
+.portfolio-contact {
+    background-color: #cec7cf;
+    padding: 20px 0;
 }
 
-textarea {
-    height: 100px; 
+.row.contact {
+    text-align: center;
+    padding-top: 10px;
 }
 
-input[type=checkbox] {
-    margin: 10px 5px 10px 0;
-}
-
-*:focus {
-    outline: none;
-}*/
 
 /*-------------------*/
 /*FOOTER*/
 /*-------------------*/
+
+
+
+.social-links li {
+    list-style: none;
+    display: block;
+    float: left;
+    width: 50px;
+    margin: 20px auto;
+    padding-left: 10px;
+    box-sizing: content-box;
+}
+
+*.social-links li a:link,
+.social-links li a:visited {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 0;
+    color: #f1eff1;
+    text-decoration: none;
+    font-size: 150%;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.social-links li a:hover,
+.social-links li a:active {
+    border-bottom: 3px solid #f42e7a;
+}
 
 
 
